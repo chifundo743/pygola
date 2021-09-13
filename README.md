@@ -1,1 +1,1 @@
-# pywebs
+# Holds golang files
