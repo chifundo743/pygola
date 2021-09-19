@@ -8,3 +8,7 @@ import (
 func HelloWorld(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "hello world")
 }
+
+func UserHello(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "hello user ")
+}

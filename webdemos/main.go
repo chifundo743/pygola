@@ -11,6 +11,7 @@ import (
 func main() {
 	muxx := http.NewServeMux()
 	muxx.HandleFunc("/", hello.HelloWorld)
+	muxx.HandleFunc("/user/", hello.UserHello)
 
 	fmt.Println("http://localhost:8080")
 	s := &http.Server{
